@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 462319648e7687a4cbf6ea598417b533, type: 3}
+  m_Name: Skill_fire
+  m_EditorClassIdentifier: Assembly-CSharp::TurnGame.SkillData
+  skillId: fire
+  displayName: "\uD30C\uC774\uC5B4"
+  description: "\uD654\uC5FC \uB9C8\uBC95"
+  mpCost: 7
+  power: 175
+  speedBonus: -1
+  target: 0
+  effectColor: {r: 1, g: 0.25, b: 0.1, a: 1}

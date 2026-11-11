@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed71aa456faf1bc4b8329ee9df6f55fd, type: 3}
+  m_Name: Character_hero_mage
+  m_EditorClassIdentifier: Assembly-CSharp::TurnGame.CharacterData
+  characterId: hero_mage
+  displayName: "\uB9C8\uB3C4\uC0AC \uBBF8\uC544"
+  team: 0
+  baseHP: 92
+  baseMP: 35
+  attack: 30
+  defense: 7
+  speed: 15
+  hpGrowth: 13
+  attackGrowth: 5
+  defenseGrowth: 1
+  speedGrowth: 2
+  experienceReward: 0
+  bodyColor: {r: 0.65, g: 0.3, b: 1, a: 1}
+  skills:
+  - {fileID: 11400000, guid: 1f1b87c51909b824a87c3e8170a64816, type: 2}
